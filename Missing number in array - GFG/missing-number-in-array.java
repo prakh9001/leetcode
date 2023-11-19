@@ -31,10 +31,11 @@ class Solution {
     int missingNumber(int arr[], int n) {
         int a=0,b=0;
         for(int i=0;i<n-1;i++){
-            a+=arr[i];
+            a += arr[i];
             b+=i;
         }
         b = b+ (2*n)-1;
         return b-a;
+
     }
 }
