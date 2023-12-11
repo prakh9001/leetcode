@@ -15,11 +15,11 @@ arrangement, output will be 1.</span>
 <p><br><span style="font-size: 18px;"><strong>Example 2:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong>Input</strong>: 
 n = 3 
-A[] = {1, 2, 3}
+A[] = {1, 4, 3, 6, 2, 1}
 [a, b] = [1, 3]
 <strong>Output</strong>: 1
 <strong>Explanation: </strong>One possible arrangement 
-is: {1, 2, 3}. If you return a valid
+is: {1, 3, 2, 1, 4, 6}. If you return a valid
 arrangement, output will be 1.
 
 </span>
